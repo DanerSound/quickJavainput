@@ -1,4 +1,5 @@
 # quickJavainput
+#QUICK-JAVAINPUT
 
 in this very simple class can help you to read data from keyboard 
 every time you have to read some data from keyboard its dificult because you have to 
