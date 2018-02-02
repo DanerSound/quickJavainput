@@ -1,6 +1,7 @@
 # quickJavainput
 
-## do you want to easily and efficiently manage the keyboard input of your java program?
+## do you want to easily and efficiently manage
+## the keyboard input of your java program?
 
   > in this very simple class can help you to read data from keyboard 
   
