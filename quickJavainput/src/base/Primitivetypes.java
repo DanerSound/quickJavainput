@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package base;
 
 /**
@@ -20,10 +15,9 @@ public class Primitivetypes {
     
     public float multFloat(){
         return n3*2;
-    }
+    } 
     
-    public void readedString(){
-        
+    public void readedString(){    
         System.out.println("inserisci qualcosa");
         System.out.println(" quello che hai inserito è" + IO.lineIn());
     }
