@@ -1,14 +1,29 @@
-# quickJavainput
+# README : QuickJavainput #
 
-## do you want to easily and efficiently manage
-## the keyboard input of your java program?
+## Do you want to easily and efficiently manage
+## The keyboard input of your java program?
 
-  > in this very simple class can help you to read data from keyboard 
+### What is this repository for? ###
+
+The aim of this repository is to read primitive type _from keyboard_ more easily
+ 
+### How do use this repo : ###
+
+big advise : **download the repo and see the test for primitive types inside, i wrote this using Eclipse**
+
+The only [file](https://github.com/DanerSound/quickJavainput/blob/master/quickJavainput/src/base/IO.java) that u need.
+
+you must [see](https://github.com/DanerSound/quickJavainput/blob/master/quickJavainput/src/base/TestQuickInput.java) how i parse every type.
+
+**Import** the file as a library them add the import file name on you main file.
+
+now you can read everthing.
+
+
+
+
+
+
+
   
-  Every time you have to read some data from keyboard its dificult 
-  
-  because you have to add a very long file with each type of data you want to read!
-  
-  with this file you can read all data with a line 
-  
-  just import this as a library.
+
