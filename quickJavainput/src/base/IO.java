@@ -8,7 +8,6 @@ import java.io.InputStreamReader;
  * @author Andre Cristhian Barreto Donayre
  *
  */
-
 public  final class IO {
 
     private static String DataReaded = null;
@@ -18,13 +17,11 @@ public  final class IO {
         InputStreamReader isn = new InputStreamReader(System.in);
         BufferedReader Bf = new BufferedReader(isn); 
         try {
-
             DataReaded = Bf.readLine();// Read everything
 
         } catch (IOException io) {
-            System.out.println("errore Io");
+            System.out.println("[Error on LineInput:Can't Read this type of data]");
         }
         return DataReaded;
     }
-
 }

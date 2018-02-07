@@ -7,23 +7,24 @@ package base;
  **/
 public class TestQuickInput {
 
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		System.out.println(" Remember that java can read from outside only STRING");
+	System.out.println(" Remember that java can read from keyboard only STRINGs ");
+	System.out.println(" This is a test for Primitive types ");
 
-		Primitivetypes test = new Primitivetypes();
+	Primitivetypes test = new Primitivetypes();
 
-		System.out.println("inserisci due numeri INTERI");
-		test.n1 = Integer.parseInt(IO.lineIn());
-		test.n2 = Integer.parseInt(IO.lineIn());
+	System.out.println(" Insert two Integers: ");
+	test.number1 = Integer.parseInt(IO.lineIn());
+	test.number2 = Integer.parseInt(IO.lineIn());
 
-		System.out.println("la somma dei numeri è " + test.sum());
+	System.out.println(" the sum of the numbers is " + test.sum());
 
-		System.out.println("inserisci un float");
-		test.n3 = Float.parseFloat(IO.lineIn());
-		System.out.println("il numero amplificato di due " + test.multFloat());
-
-		test.readedString();
+	System.out.println(" Insert a Float number :");
+	test.floatNumber = Float.parseFloat(IO.lineIn());
+	System.out.println(" the multiplication by 2  of the floatNumber is :" + test.multFloat());
+		
+	test.readedString();
 	}
 
 }

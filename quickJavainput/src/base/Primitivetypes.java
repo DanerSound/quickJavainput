@@ -6,20 +6,20 @@ package base;
  */
 public class Primitivetypes {
     
-    int n1,n2;
-    float n3;
+    int number1,number2;
+    float floatNumber;
     
     public int sum(){
-        return n1+n2;
+        return number1+number2;
     }
     
     public float multFloat(){
-        return n3*2;
+        return floatNumber*2;
     } 
     
     public void readedString(){    
-        System.out.println("inserisci qualcosa");
-        System.out.println(" quello che hai inserito è" + IO.lineIn());
+        System.out.println(" Write Something... ");
+        System.out.println(" you wrote ... " + IO.lineIn());
     }
     
     
